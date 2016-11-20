@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/super-fe/eslint-config-superfe-rn#readme",
   "peerDependencies": {
-    "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-promise": "^3.3.2",
-    "eslint-plugin-react": "^6.6.0",
-    "eslint-plugin-react-native": "^2.0.0"
+    "eslint-plugin-babel": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-react": "*",
+    "eslint-plugin-react-native": "*"
   }
 }

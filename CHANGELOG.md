@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Changed
+- set versions of peer dependencies to `\*`
 
 ## [1.1.0] - 2016-11-20
 ### Added
