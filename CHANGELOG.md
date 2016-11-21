@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [1.1.1] - 2016-11-21
 ### Changed
 - set versions of peer dependencies to `\*`
 
@@ -18,5 +20,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - initialize this project
 
 
+[1.1.1]: https://github.com/super-fe/eslint-config-superfe-rn/compare/1.1.0...1.1.1
 [1.1.0]: https://github.com/super-fe/eslint-config-superfe-rn/compare/1.0.0...1.1.0
-[Unreleased]: https://github.com/super-fe/eslint-config-superfe-rn/compare/1.1.0...HEAD
+[Unreleased]: https://github.com/super-fe/eslint-config-superfe-rn/compare/1.1.1...HEAD
