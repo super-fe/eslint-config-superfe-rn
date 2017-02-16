@@ -1,16 +1,16 @@
 {
   "name": "eslint-config-superfe-rn",
-  "version": "1.1.1",
-  "description": "Eslint configration for superfe's react-native apps",
+  "version": "2.0.0",
+  "description": "Eslint configration for Super-FE's react-native apps",
   "scripts": {
-    "test": "mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/super-fe/eslint-config-superfe-rn.git"
   },
   "keywords": [
-    "eslint-config",
+    "eslint",
+    "eslintconfig",
     "superfe",
     "super-fe"
   ],
@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/super-fe/eslint-config-superfe-rn#readme",
   "peerDependencies": {
+    "eslint": "*",
+    "babel-eslint": "*",
     "eslint-plugin-babel": "*",
     "eslint-plugin-promise": "*",
     "eslint-plugin-react": "*",
