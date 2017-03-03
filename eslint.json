@@ -19,6 +19,7 @@
     ],
     "rules": {
         "semi": 2,
+        "no-unused-vars": 2,
         "brace-style": [2, "1tbs"],
         "react-native/no-unused-styles": 2,
         "react-native/split-platform-components": 2,
