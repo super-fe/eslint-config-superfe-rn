@@ -6,7 +6,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-## [2.0.1] - 2017-03-04
+## [2.0.3] - 2017-03-12
+### Added
+- `no-bitwise`
+- `no-eval`
+- `no-labels`
+- `no-loop-func`
+- `no-multi-spaces`
+- `no-octal-escape`
+- `no-proto`
+- `no-with`
+- `er-promise-reject-errors`
+- `no-param-reassign`
+
+## [2.0.2] - 2017-03-04
 ### Added
 - `quote-props`
 
@@ -32,9 +45,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - initialize this project
 
 
-[2.0.2]: https://github.com/super-fe/eslint-config-superfe-rn/compare/1.1.1...2.0.2
-[2.0.1]: https://github.com/super-fe/eslint-config-superfe-rn/compare/1.1.1...2.0.1
+[2.0.3]: https://github.com/super-fe/eslint-config-superfe-rn/compare/2.0.2...2.0.3
+[2.0.2]: https://github.com/super-fe/eslint-config-superfe-rn/compare/2.0.1...2.0.2
+[2.0.1]: https://github.com/super-fe/eslint-config-superfe-rn/compare/2.0.0...2.0.1
 [2.0.0]: https://github.com/super-fe/eslint-config-superfe-rn/compare/1.1.1...2.0.0
 [1.1.1]: https://github.com/super-fe/eslint-config-superfe-rn/compare/1.1.0...1.1.1
 [1.1.0]: https://github.com/super-fe/eslint-config-superfe-rn/compare/1.0.0...1.1.0
-[Unreleased]: https://github.com/super-fe/eslint-config-superfe-rn/compare/2.0.2...HEAD
+[Unreleased]: https://github.com/super-fe/eslint-config-superfe-rn/compare/2.0.3...HEAD

@@ -19,6 +19,16 @@
     ],
     "rules": {
         "semi": 2,
+        "no-bitwise": 2,
+        "no-eval": 2,
+        "no-labels": 2,
+        "no-loop-func": 2,
+        "no-multi-spaces": 2,
+        "no-octal-escape": 2,
+        "no-proto": 2,
+        "no-with": 2,
+        "prefer-promise-reject-errors": 2,
+        "no-param-reassign": 2,
         "no-unused-vars": 2,
         "quote-props": [2, "as-needed"],
         "brace-style": [2, "1tbs"],
@@ -29,6 +39,7 @@
     },
     "globals": {
         "Promise": true,
-        "require": true
+        "require": true,
+        "__DEV__": true
     }
 }
