@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-superfe-rn",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Eslint configration for Super-FE's react-native apps",
   "scripts": {
   },
