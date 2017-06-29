@@ -1,9 +1,12 @@
 {
   "name": "eslint-config-superfe-rn",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "description": "Eslint configration for Super-FE's react-native apps",
   "scripts": {
+    "test": "ava && eslint index.js -c eslint.json",
+    "prepare": "npm test"
   },
+  "pre-commit": "npm run prepare",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/super-fe/eslint-config-superfe-rn.git"
@@ -30,5 +33,16 @@
     "eslint-plugin-promise": "*",
     "eslint-plugin-react": "*",
     "eslint-plugin-react-native": "*"
+  },
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-plugin-babel": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-react": "*",
+    "eslint-plugin-react-native": "*",
+    "graceful-fs": "^4.1.11",
+    "pre-commit": "^1.2.2"
   }
 }
